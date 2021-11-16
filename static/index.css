@@ -1,0 +1,65 @@
+* {
+    scroll-behavior: smooth;
+}
+.main-div {
+    background-color: rgb(66, 58, 58);
+    border: 2px solid dark-gray;
+    border-radius: 25px;
+    height: 700px;
+    margin-left: 43px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    /*padding: 16px 25px;*/
+    width: 35%;
+}
+.main-inner-div {
+    text-align: center;
+}
+.main-inner-div h1 {
+    /*border-left: 5px solid lightgray;
+    border-right: 5px solid lightgray;
+    border-top: 5px solid lightgray;*/
+    color: antiquewhite;
+    /*margin-bottom: -1px;
+    text-align: center;
+    width: 70%;*/
+}
+.main-div::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main-div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+table {
+    border: 5px solid lightgrey;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100%;
+}
+#tab-head {
+    color: antiquewhite; 
+    border-bottom: 4px solid lightgray; 
+    border-radius: 25px;
+    font-size: xx-large; 
+}
+td, a {
+    color: seagreen;
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.5;
+}
+/*hr {
+    font-weight: bo;
+    text-align: left;
+}*/

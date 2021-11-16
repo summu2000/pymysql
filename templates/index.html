@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Python - MySQL Project</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+        <link rel="stylesheet" href="../static/index.css">
+        <style>
+            body {
+                background: url('https://cdn.cks.codes/projects/train.jpg');
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="main-inner-div">
+                <table>
+                    <tr><th id="tab-head">Python Projects List</th></tr>
+                    {% for row in data %}
+                    <tr>
+                        <td><br><a href="{{ data[row] }}" target="_blank" rel="noopener noreferrer"> {{ row }} </a></td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
